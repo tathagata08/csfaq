@@ -60,5 +60,4 @@ npm run install-all
 npm run dev
 ```
 
-Open **http://localhost:5173** and use the "Viewing as: user / admin" toggle
-to switch views.
+
