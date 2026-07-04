@@ -4,7 +4,7 @@ import DashboardStats from "../components/admin/DashboardStats";
 export default function AdminDashboardPage() {
   return (
     <div className="min-h-screen bg-parchment text-ink">
-      <Navbar />
+      
 
       <main className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-8">
 
