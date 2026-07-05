@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+.faq-root * {
+  box-sizing: border-box;
+}
+
+.cat-btn {
+  transition: background .15s ease, color .15s ease;
+}
+
+.cat-btn:hover {
+  background: #E3DFD1;
+}
+
+.cat-btn.active {
+  background: #1E2A44;
+  color: #EDEAE0;
+}
+
+.card {
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(30,42,68,0.10);
+}
+
+.vote-btn:hover {
+  background: #1E2A4412;
+}
+
+.vote-btn.active-up {
+  background: #2F6F62;
+  color: #fff;
+}
+
+.vote-btn.active-down {
+  background: #B04A3A;
+  color: #fff;
+}
+
+.mic-btn.listening {
+  background: #B04A3A;
+  color: #fff;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.related-chip:hover {
+  background: #1E2A44;
+  color: #EDEAE0;
+  border-color: #1E2A44;
+}
+
+.tab-btn {
+  transition: background .15s ease, color .15s ease;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #1E2A44;
+  color: #EDEAE0;
+}
+
+.tab-btn:not(.active):hover {
+  background: #E3DFD1;
+}
+
+.explore-link:hover {
+  text-decoration: underline;
+}
+
+.catcard:hover {
+  border-color: #1E2A44;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(176,74,58,0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(176,74,58,0);
+  }
+}
+
+@media (max-width: 760px) {
+  .faq-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .faq-sidebar {
+    position: static !important;
+    order: 2;
+  }
+  .home-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
