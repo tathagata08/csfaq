@@ -158,7 +158,6 @@ The following features are not backed by the current backend and should be omitt
 - Related questions
 - Search miss logging
 - Insights panel
-- Voice search (future enhancement)
 - Escalation simulation
 - In-memory analytics
 
