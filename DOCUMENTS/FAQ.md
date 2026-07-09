@@ -258,4 +258,3 @@ frontend/src/
   module rather than adding voice input to `FAQSearch.jsx` itself. See
   `Voice agent/FAQS/README.MD` and the Voice Agent section of
   `DOCUMENTS/BACKEND_INTEGRATION.md`.
-
