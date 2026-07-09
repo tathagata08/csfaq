@@ -209,7 +209,7 @@ Not yet tested against a real deployment:
 
 ---
 
-## Known Pending Work
+## Future Enhancement
 
 - Authentication
 - Authorization
