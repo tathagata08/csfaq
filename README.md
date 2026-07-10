@@ -260,7 +260,7 @@ CSFAQ/
 | FAQ Voice Agent (Frontend) | **Kanika** |
 | Discussion Forum (Frontend + Backend) | **Arni** |
 | Escalation Portal (Frontend) | **Rushikesh Barge** |
-| Admin Dashboard (Frontend) | **Rushikesh Barge** |
+| Admin Dashboard (Frontend) |**Tathagata Banerjee** **Rushikesh Barge** |
 | Backend Development (APIs, Database & Server) | **Tathagata Banerjee** |
 | Project Documentation & README | **Arni** |
 
