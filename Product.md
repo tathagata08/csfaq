@@ -100,7 +100,7 @@ admin has to act on.
 | FAQ Voice Agent | ✅ Done (own local data, see below) | ✅ Done |
 | Discussion Forum | ✅ Done | ✅ Done |
 | Escalation | ✅ Done | ✅ Done |
-| Admin Dashboard | 🚧 Escalation queue/analytics only; overview + moderation endpoints are placeholders | 🚧 Same — shows the escalation queue only |
+| Admin Dashboard | ✅ Done | ✅ Done |
 
 ## 5. Architecture
 
